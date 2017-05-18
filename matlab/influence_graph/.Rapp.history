@@ -1,0 +1,181 @@
+install.packages("RMySQL")
+?commandArgs
+?length
+?plot
+help()
+?plot
+?vector
+?ones
+?point
+?points
+?text
+?points
+?pdf
+??jpeg
+?jpeg
+?line
+?points
+?plot.new()
+?par
+?lmstats
+?lmstat
+?summary
+?install.packages
+update.packages
+update.packages()
+update.packages('rmysql')
+intsall.package('rmysql')
+intsall.packages('rmysql')
+install.packages('rmysql')
+install.packages('RMySQL')
+round
+roun(3.45)
+round(3.45)
+ceil(3)
+floor(3)
+ceiling(3)
+ceiling(3.5)
+floor(3.5)
+install.packages("RMySQL")
+install.packages("RMySQL", type = "source")
+?dbConnect
+?for
+;
+help(for)
+help()
+ar <- c(3,2,1,2,3)
+which.max(ar)
+which.min(ar)
+?save
+?print
+cd
+?plot
+library("qgraph")
+Edges <- data.frame(#
+    from = rep(1:5,each=5),#
+    to = rep(1:5,times=5),#
+    thickness = abs(rnorm(25)))
+Edges <- subset(Edges,from!=to)
+library("qgraph")#
+qgraph(Edges,esize=5,gray=TRUE)
+library("qgraph")
+qgraph(Edges,esize=5,gray=TRUE)
+?qgraph
+# Inputs#
+nodefile <- "ig_nodes.csv"#
+linkfile <- "ig_links.csv"#
+#
+# Load libraries#
+library("qgraph")#
+#
+# Load the node, link data#
+nodes <- read.csv(nodefile)#
+links <- read.csv(linkfile)#
+#
+print(nodes)#
+print(links)#
+#
+qgraph(links,esize=5,gray=TRUE)
+# Inputs#
+nodefile <- "ig_nodes.csv"#
+linkfile <- "ig_links.csv"#
+#
+# Load libraries#
+library("qgraph")#
+#
+# Load the node, link data#
+nodes <- read.csv(nodefile)#
+links <- read.csv(linkfile)
+print(links)
+qgraph(links,esize=5,gray=TRUE)
+?qgraph
+qgraph(links,esize=5,gray=TRUE,labels=TRUE)
+qgraph(links,esize=5,gray=TRUE,labels=TRUE)
+ayout_xy <- c(nodes(:,2),nodes(:,3))
+ayout_xy <- c(nodes(,2),nodes(,3))
+nodes
+nodes("x")
+nodes(,"x")
+subset(nodes,select=c("x","y"))
+node_table <- subset(nodes,select=c("x","y"))#
+rownames(node_table) <- subset(nodes,select="names"))#
+print(node_table)
+node_table <- subset(nodes,select=c("x","y"))#
+rownames(node_table) <- subset(nodes,select="names")#
+print(node_table)
+rownames(node_table) <- subset(nodes,select="name")
+nodes
+subset(nodes,select="name")
+rownames(node_table)''
+rownames(node_table)''
+rownames(node_table)
+rownames(node_table) <- subset(nodes,select="name")
+node_table <- subset(nodes,select=c("x","y"))#
+#rownames(node_table) <- subset(nodes,select="name")#
+print(node_table)#
+#
+qgraph(links,esize=5,gray=TRUE,labels=TRUE,layout=node_table)
+node_locs <- as.matrix(subset(nodes,select=c("x","y")))
+node_locs
+qgraph(links,esize=5,gray=TRUE,labels=TRUE,layout=node_locs)
+# Inputs#
+nodefile <- "ig_nodes.csv"#
+linkfile <- "ig_links.csv"#
+#
+# Load libraries#
+library("qgraph")#
+#
+# Load the node, link data#
+nodes <- read.csv(nodefile)#
+links <- read.csv(linkfile)#
+#
+print(nodes)#
+print(links)#
+#
+node_locs <- as.matrix(subset(nodes,select=c("x","y")))#
+#rownames(node_table) <- subset(nodes,select="name")#
+print(node_locs)#
+#
+qgraph(links,esize=5,gray=TRUE,labels=TRUE,layout=node_locs)
+# Inputs#
+nodefile <- "ig_nodes.csv"#
+linkfile <- "ig_links.csv"#
+#
+# Load libraries#
+library("qgraph")#
+#
+# Load the node, link data#
+nodes <- read.csv(nodefile)#
+links <- read.csv(linkfile)#
+#
+print(nodes)#
+print(links)#
+#
+node_locs <- as.matrix(subset(nodes,select=c("x","y")))#
+#rownames(node_table) <- subset(nodes,select="name")#
+print(node_locs)#
+#
+qgraph(links,esize=5,gray=TRUE,labels=TRUE,layout=node_locs)
+?read.csv
+# Inputs#
+nodefile <- "ig_nodes.csv"#
+linkfile <- "ig_links.csv"#
+#
+# Load libraries#
+library("qgraph")#
+#
+# Load the node, link data#
+nodes <- read.csv(nodefile,row.names=1)#
+links <- read.csv(linkfile)#
+#
+print(nodes)#
+print(links)#
+#
+node_locs <- as.matrix(subset(nodes,select=c("x","y")))#
+#rownames(node_table) <- subset(nodes,select="name")#
+print(node_locs)#
+#
+qgraph(links,esize=5,gray=TRUE,labels=TRUE,layout=node_locs)
+qgraph.gui
+qgraph.gui();
+qgraph(links,esize=5,gray=TRUE,labels=TRUE)
